@@ -2,22 +2,18 @@
 
 
 
-###########环境依赖
-node v0.10.28+
-redIs ~
+##environment dependency
+tomcat 7
+mySQL
+eclipse
 
-###########部署步骤
-1. 添加系统环境变量
-    export $PORTAL_VERSION="production" // production, test, dev
+##deploy 
+1. import project to eclipse
 
+2. depoly tomcat to project
 
-2. npm install  //安装node运行环境
+3. makeing connnection between project and mySQL 
 
-3. gulp build   //前端编译
-
-4. 启动两个配置(已forever为例)
-    eg: forever start app-service.js
-        forever start logger-service.js
 
 
 ###########目录结构描述
