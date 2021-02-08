@@ -17,16 +17,16 @@ eclipse
 
 
 ##architecture describtion
-* .settings                    // configuration
-* image                        // picture
-* lib                          // jar
-* sql                         // sql files
-*  src 
-> com                      // coding
-> configuration.xml        // configuration
-> dbsource.properties      // database connection
-> log4j.properties         // log configuration
-* webroot                           
+1. .settings                    // configuration
+2. image                        // picture
+3. lib                          // jar
+4. sql                         // sql files
+5.  src 
+* com                      // coding
+* configuration.xml        // configuration
+* dbsource.properties      // database connection
+* log4j.properties         // log configuration
+6. webroot                           
 
 
 
