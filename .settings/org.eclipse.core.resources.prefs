@@ -1,0 +1,15 @@
+eclipse.preferences.version=1
+encoding//WebRoot/WEB-INF/web.xml=GBK
+encoding//WebRoot/js/adduser.js=GBK
+encoding//WebRoot/js/checkIndex.js=GBK
+encoding//WebRoot/js/checkLogIn.js=GBK
+encoding//WebRoot/js/delinfo.js=GBK
+encoding//src/com/itcast/bean/Inverst.java=GBK
+encoding//src/com/itcast/dao/InverstDao.java=gbk
+encoding//src/com/itcast/dao/UserDao.java=GBK
+encoding//src/com/itcast/filter/EncodingFilter.java=GBK
+encoding//src/com/itcast/filter/MyFilter.java=GBK
+encoding//src/com/itcast/servlet/HappyTimeServlet.java=GBK
+encoding//src/com/itcast/servlet/LoginServlet.java=GBK
+encoding//src/com/itcast/servlet/UpdUserPwdServlet.java=GBK
+encoding//src/com/itcast/servlet/UpdateServlet.java=GBK
