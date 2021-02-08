@@ -13,7 +13,7 @@ eclipse
 2. depoly tomcat to project
 
 3. makeing connnection between project and mySQL 
-
+![](https://github.com/jinghuang0010/bitcorn/blob/main/image/4131ea8f4a77b7a9a25e86f59cfc07b.png)
 
 
 ###########目录结构描述
