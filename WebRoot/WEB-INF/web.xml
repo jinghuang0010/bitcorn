@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <servlet-name>HappyTimeServlet</servlet-name>
+    <servlet-class>com.itcast.servlet.HappyTimeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LookList</servlet-name>
+    <servlet-class>com.itcast.servlet.LookList</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.itcast.servlet.LoginServlet</servlet-class>
+  </servlet>
+ <servlet>
+    <servlet-name>ImgServlet</servlet-name>
+    <servlet-class>com.itcast.servlet.ImgServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DelInfo</servlet-name>
+    <servlet-class>com.itcast.servlet.DelInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddUserServlet</servlet-name>
+    <servlet-class>com.itcast.servlet.AddUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateServlet</servlet-name>
+    <servlet-class>com.itcast.servlet.UpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdUserPwdServlet</servlet-name>
+    <servlet-class>com.itcast.servlet.UpdUserPwdServlet</servlet-class>
+  </servlet>
+
+
+
+
+  
+	<servlet-mapping>
+    <servlet-name>HappyTimeServlet</servlet-name>
+    <url-pattern>/HappyTimeServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LookList</servlet-name>
+    <url-pattern>/LookList.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet.do</url-pattern>
+  </servlet-mapping>	
+  <servlet-mapping>
+    <servlet-name>ImgServlet</servlet-name>
+    <url-pattern>/ImgServlet.do</url-pattern>
+   </servlet-mapping>
+<servlet-mapping>
+    <servlet-name>DelInfo</servlet-name>
+    <url-pattern>/DelInfo.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddUserServlet</servlet-name>
+    <url-pattern>/AddUserServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateServlet</servlet-name>
+    <url-pattern>/UpdateServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdUserPwdServlet</servlet-name>
+    <url-pattern>/UpdUserPwdServlet.do</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+  
+   <!-- 加过滤器 -->
+ <filter>
+ 	<filter-name>myfilter</filter-name>
+ 	<filter-class>com.itcast.filter.MyFilter</filter-class>
+ </filter>
+<!--  <filter-mapping>
+ 	<filter-name>myfilter</filter-name>
+ 	<url-pattern>/*</url-pattern>
+ </filter-mapping> -->
+  
+</web-app>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+<properties resource="dbsource.properties"></properties>
+
+	<!-- <typeAliases>标签的功能就是简化编写类型是的全类名 -->
+	<typeAliases>
+		<!--设置默认包，前面按照实体类的包名写清楚 -->
+		<package name="com.itcast.bean"/>
+	
+	</typeAliases>
+
+	<environments default="myOracle">
+		<environment id="myOracle">
+		<transactionManager type="jdbc"/>
+			<dataSource type="POOLED">
+				<property name="driver" value="${driver}"/>
+				<property name="url" value="${url}"/>
+			<property name="username" value="${username}"/>
+			<property name="password" value="${pwd}"/>
+			</dataSource>
+		</environment>
+	</environments>
+	
+	<mappers>
+		<mapper resource="com/itcast/dao/impl/InverstMapper.xml" />
+		<mapper resource="com/itcast/dao/impl/UserMapper.xml" />
+	</mappers>
+
+
+</configuration>
