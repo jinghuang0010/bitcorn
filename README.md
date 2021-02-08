@@ -16,37 +16,28 @@ eclipse
 ![](https://github.com/jinghuang0010/bitcorn/blob/main/image/4131ea8f4a77b7a9a25e86f59cfc07b.png)
 
 
-###########目录结构描述
-├── Readme.md                   // help
-├── app                         // 应用
-├── config                      // 配置
-│   ├── default.json
-│   ├── dev.json                // 开发环境
-│   ├── experiment.json         // 实验
-│   ├── index.js                // 配置控制
-│   ├── local.json              // 本地
-│   ├── production.json         // 生产环境
-│   └── test.json               // 测试环境
-├── data
-├── doc                         // 文档
-├── environment
-├── gulpfile.js
-├── locales
-├── logger-service.js           // 启动日志配置
-├── node_modules
-├── package.json
-├── app-service.js              // 启动应用配置
-├── static                      // web静态资源加载
-│   └── initjson
-│       └── config.js         // 提供给前端的配置
-├── test
-├── test-service.js
-└── tools
+##architecture describtion
+├── .settings                    // configuration
+├── image                        // picture
+├── ilb                          // jar
+├── src 
+│   ├── com                      // coding
+│   ├── configuration.xml        // configuration
+│   ├── dbsource.properties      // database connection
+│   ├── log4j.properties         // log configuration
+├── webroot                           
 
 
 
-###########V1.0.0 版本内容更新
-1. 新功能     aaaaaaaaa
-2. 新功能     bbbbbbbbb
-3. 新功能     ccccccccc
-4. 新功能     ddddddddd
+
+##show
+1. run server, type login address
+ ![](https://github.com/jinghuang0010/bitcorn/blob/main/image/4131ea8f4a77b7a9a25e86f59cfc07b.png)
+2. fill in user name and pass word verify code , then click login button
+![](https://github.com/jinghuang0010/bitcorn/blob/main/image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20210208105211.png)
+3. click "investment information" ,there are list be show on the right side.
+![](https://github.com/jinghuang0010/bitcorn/blob/main/image/4131ea8f4a77b7a9a25e86f59cfc07b.png)
+4. every information with delete button, double click delete button, may delete the information.
+![](https://github.com/jinghuang0010/bitcorn/blob/main/image/4131ea8f4a77b7a9a25e86f59cfc07b.png)
+5. click 
+![](https://github.com/jinghuang0010/bitcorn/blob/main/image/4131ea8f4a77b7a9a25e86f59cfc07b.png)
