@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="usermapper">
+
+
+	<!-- id相当于方法名    resultType相当于返回值类型，注意需要写全类名-->
+	<select id="selectUser"  resultType="User" parameterType="User">
+		select * from userinfo where username=#{username} and pwd=#{pwd}
+	</select>
+	
+	<insert id="addUser" parameterType="User">
+	
+		insert into userinfo values(null,#{username},#{pwd})
+	</insert>
+	
+	<select id="selectUserById"  resultType="User" parameterType="int">
+		select * from userinfo where userid=#{id}
+	</select>
+	
+	<!--修改用户密码的方法  -->
+	<update id="uppwdByUser" parameterType="User">
+		update userinfo set pwd=#{pwd} where userid=#{userid}
+	</update>
+		
+</mapper> 
+
